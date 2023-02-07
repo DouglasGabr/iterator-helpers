@@ -1,0 +1,11 @@
+.github/
+coverage/
+.eslint*
+.prettier*
+jest.config.js
+tsconfig.json
+tsconfig.build.json
+types.d.ts
+images/
+commitlint.config.js
+.husky/
