@@ -1,6 +1,6 @@
 {
   "name": "@douglasgabr/iterator-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic wrapper that implements https://tc39.es/proposal-iterator-helpers",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
