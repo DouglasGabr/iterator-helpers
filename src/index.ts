@@ -21,10 +21,10 @@ export class Iter<T> {
     return new Iter(process());
   }
 
-  filter(predicate: (value: T, counter: number) => boolean): Iter<T>;
   filter<U extends T>(
     predicate: (value: T, counter: number) => value is U,
   ): Iter<U>;
+  filter(predicate: (value: T, counter: number) => boolean): Iter<T>;
   filter(predicate: (value: T, counter: number) => boolean): Iter<T> {
     const iterated = this[Symbol.iterator]();
     function* process(): Generator<T, undefined> {
